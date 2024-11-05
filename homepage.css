@@ -1,0 +1,230 @@
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;     
+}
+
+/* Navigation styles */
+
+.navigation-wrapper {
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Left column styles */
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navigation-wrapper > .left-column img {
+    width: 200px;
+}
+
+/* Center column styles */
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-right: auto;
+    width: 400px;
+    margin-left: 40px;
+}
+
+.navigation-wrapper > .center-column > .top-heading {
+    padding-bottom: 5px;
+    color: #e4d772;
+}
+
+.navigation-wrapper > .center-column > .bottom-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #fcfbf8;
+    font-weight: 700;
+}
+
+.navigation-wrapper > .center-column > .bottom-heading > .down-chevron {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    color: grey;
+}
+
+
+/* Right column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 400px;
+    justify-content: right;
+    margin-right: 10px;
+}
+
+.navigation-wrapper > .right-column > .down-chevron {
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    background-color: grey;
+    color: #fcfbf8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .right-column > .search i {
+    font-size: 27px;
+}
+
+.navigation-wrapper > .right-column > .Log{
+    background-color: grey;
+    color: #fcfbf8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .right-column > .Sign {
+    background-color: grey;
+    color: #fcfbf8;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Hero section styles */
+
+.hero-section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #30323a;
+    height: 500px;
+}
+
+.hero-section > .left-column {
+    width: 40%;
+    margin-left: 50px; ;
+}
+
+.hero-section > .left-column > .text-wrapper {
+    color: #d8d8db;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 150;
+}
+
+.hero-section > .left-column > .text-wrapper > .text1 span{
+    color: #fcfbf8;
+    font-weight: 400;
+}
+
+.hero-section > .left-column > .button-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero-section > .left-column > .button-wrapper > .Sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4cce79;
+    border-radius: 3px;
+    width: auto;
+    margin-top: 30px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.hero-section > .left-column > .button-wrapper > .Sign h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hero-section > .left-column > .button-wrapper > .Learn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 3px;
+    width: auto;
+    margin-top: 30px;
+    color: white;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.hero-section > .left-column > .button-wrapper > .Learn h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* Right column styles */
+
+.hero-section > .right-column {
+    display: flex;
+    width: 60%;
+    height: 100%;
+    align-items:flex-end;
+    justify-content: flex-end;
+}
+
+.hero-section > .right-column > .content-wrapper > .text {
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.hero-section > .right-column > .content-wrapper > .text span {
+    color: #6ccfeb;
+}
+
+.hero-section > .right-column > .content-wrapper > .img img {
+    width: 530px;
+    object-fit: cover;
+    margin-bottom: -4px;
+}
+
+/* Footer styles */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background-color: #35383f;
+}
+
+.footer > .column {
+    width: 25%;
+    height: 60px;
+    border: 1.4px solid #626263;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.footer > .column span {
+    font-size: 27px;
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.stuffing {
+    background-color: black;
+    height: 200px;
+}
